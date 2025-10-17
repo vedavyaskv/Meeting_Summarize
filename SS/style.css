@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    background-color: #0E1117;
+}
+
+/* Style for the main title */
+h1 {
+    color: #9C88FF; /* Bright purple for the main title */
+}
+
+/* Style for all subheaders (the ones with the checkmarks) */
+h3 {
+    color: #A491D3; /* A softer purple for subheadings */
+}
+
+/* Style for the blockquote used for transcripts */
+blockquote {
+    background-color: #262730;      /* Darker background for contrast */
+    border-left: 5px solid #7B68EE;  /* A nice purple accent border */
+    color: #FAFAFA;                  /* Light text color for readability */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+/* Style for the keyword tags to make them stand out */
+.stMarkdown p code {
+    background-color: #4B0082;      /* Indigo background for keywords */
+    color: #E6E6FA;                  /* Lavender text color */
+    padding: 0.2em 0.4em;
+    margin: 0 0.2em;
+    font-size: 85%;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styling Streamlit's buttons for a more custom feel */
+div.stButton > button {
+    background-color: #7B68EE;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s; /* Smooth hover effect */
+}
+
+div.stButton > button:hover {
+    background-color: #5D3FD3; /* Darker purple when you hover over it */
+    color: white;
+}
